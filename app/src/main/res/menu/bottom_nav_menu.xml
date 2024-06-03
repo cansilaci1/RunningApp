@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/statisticsFragment"
+        android:icon="@drawable/icon_running"
+        android:title="Adım" />
+
+    <item
+        android:id="@+id/stepListFragment"
+        android:icon="@drawable/icon_step"
+        android:title="Adımlarım"/>
+
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/icon_maps"
+        android:title="Harita" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/icon_heart"
+        android:title="Hesabım" />
+
+
+</menu>

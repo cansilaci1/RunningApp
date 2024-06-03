@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.runningapp.ui.fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.runningapp.ui.fragments.IntroFragment"
+        android:label="fragment_intro"
+        tools:layout="@layout/fragment_intro" >
+        <action
+            android:id="@+id/action_introFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.runningapp.ui.fragments.MyAccountFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_my_acccount" >
+        <action
+            android:id="@+id/action_settingsFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.runningapp.ui.fragments.StepCounterFragment"
+        android:label="fragment_statistics"
+        tools:layout="@layout/fragment_step_counter" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.runningapp.ui.fragments.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_stepListFragment"
+            app:destination="@id/stepListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepListFragment"
+        android:name="com.example.runningapp.ui.fragments.StepListFragment"
+        android:label="fragment_step_list"
+        tools:layout="@layout/fragment_step_list" />
+</navigation>

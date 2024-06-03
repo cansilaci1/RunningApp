@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RunningApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="myAPIKey">AIzaSyCb6Kk93AnB8siLYTul5ENqobZexTiN0D8</string>
+
+    <string-array name="gender_options">
+        <item>Kadın</item>
+        <item>Erkek</item>
+    </string-array>
+
+</resources>
