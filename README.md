@@ -1,6 +1,6 @@
 # Running App
 
-###Features
+### Features
 -Registration
 -Live Data of Total Steps
 -Google Map
