@@ -1,10 +1,10 @@
 # Running App
 
 ### Features
--Registration
--Live Data of Total Steps
--Google Map
--Account Page With Some Statistics
+## -Registration
+## -Live Data of Total Steps
+## -Google Map
+## -Account Page With Some Statistics
 
 ## Screenshots
 
