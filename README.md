@@ -1,6 +1,10 @@
 # Running App
 
-This project is a recipe application developed using Kotlin. The app allows users to view and add various recipes.
+###Features
+-Registration
+-Live Data of Total Steps
+-Google Map
+-Account Page With Some Statistics
 
 ## Screenshots
 
